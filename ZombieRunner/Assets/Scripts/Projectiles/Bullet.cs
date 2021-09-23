@@ -5,12 +5,9 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     [SerializeField] private float speed;
-    public float damage =1f;
     public Rigidbody2D rb;
-    private float lifeTime = 0.29f;
+    private float lifeTime = 0.30f;
     private float startLifeTime;
-    public GameObject bloodEffect;
-    public GameObject head, body, arm, leg;
 
 
     void Start()
